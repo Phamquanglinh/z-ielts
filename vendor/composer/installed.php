@@ -1,12 +1,12 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => 'v8.5.16',
-    'version' => '8.5.16.0',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '72be48ecbe52a20073a720cf6a0992669f517aea',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -20,6 +20,24 @@
       ),
       'reference' => '9cb795bf30988e8c96dd3c40623c48a877bc6714',
     ),
+    'backpack/crud' => 
+    array (
+      'pretty_version' => '4.1.43',
+      'version' => '4.1.43.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '973e8ab33d42f02272f65e9688ea250fc9502d3d',
+    ),
+    'backpack/generators' => 
+    array (
+      'pretty_version' => 'v3.1.8',
+      'version' => '3.1.8.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '313b012399e98ece69942860d58a67e598de3662',
+    ),
     'brick/math' => 
     array (
       'pretty_version' => '0.9.2',
@@ -29,6 +47,15 @@
       ),
       'reference' => 'dff976c2f3487d42c1db75a3b180e2b9f0e72ce0',
     ),
+    'composer/package-versions-deprecated' => 
+    array (
+      'pretty_version' => '1.11.99.1',
+      'version' => '1.11.99.1',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '7413f0b55a051e89485c5cb9f765fe24bb02a7b6',
+    ),
     'cordoval/hamcrest-php' => 
     array (
       'replaced' => 
@@ -36,12 +63,57 @@
         0 => '*',
       ),
     ),
+    'creativeorange/gravatar' => 
+    array (
+      'pretty_version' => 'v1.0.20',
+      'version' => '1.0.20.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8c2c1a3a59fdf05f50c9d9413dd9d2d50835e017',
+    ),
     'davedevelopment/hamcrest-php' => 
     array (
       'replaced' => 
       array (
         0 => '*',
       ),
+    ),
+    'doctrine/cache' => 
+    array (
+      'pretty_version' => '1.11.0',
+      'version' => '1.11.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'a9c1b59eba5a08ca2770a76eddb88922f504e8e0',
+    ),
+    'doctrine/dbal' => 
+    array (
+      'pretty_version' => '3.1.0',
+      'version' => '3.1.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '5ba62e7e40df119424866064faf2cef66cb5232a',
+    ),
+    'doctrine/deprecations' => 
+    array (
+      'pretty_version' => 'v0.5.3',
+      'version' => '0.5.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '9504165960a1f83cc1480e2be1dd0a0478561314',
+    ),
+    'doctrine/event-manager' => 
+    array (
+      'pretty_version' => '1.1.1',
+      'version' => '1.1.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '41370af6a30faa9dc0368c4a6814d596e81aba7f',
     ),
     'doctrine/inflector' => 
     array (
@@ -431,12 +503,12 @@
     ),
     'laravel/laravel' => 
     array (
-      'pretty_version' => 'v8.5.16',
-      'version' => '8.5.16.0',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '72be48ecbe52a20073a720cf6a0992669f517aea',
     ),
     'laravel/sail' => 
     array (
@@ -547,6 +619,13 @@
       array (
       ),
       'reference' => '41b7e9999133d5082700d31a1d0977161df8322a',
+    ),
+    'ocramius/package-versions' => 
+    array (
+      'replaced' => 
+      array (
+        0 => '1.11.99',
+      ),
     ),
     'opis/closure' => 
     array (
@@ -674,6 +753,15 @@
       ),
       'reference' => 'c73c6737305e779771147af66c96ca6a7ed8a741',
     ),
+    'prologue/alerts' => 
+    array (
+      'pretty_version' => '0.4.8',
+      'version' => '0.4.8.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'a6412e318c0171526bc8b25ef597f2cc61f5b800',
+    ),
     'psr/container' => 
     array (
       'pretty_version' => '1.1.1',
@@ -751,8 +839,8 @@
     array (
       'provided' => 
       array (
-        0 => '1.0',
-        1 => '1.0.0',
+        0 => '1.0.0',
+        1 => '1.0',
       ),
     ),
     'psr/simple-cache' => 
