@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
 
 class Category extends Model
 {
@@ -28,7 +29,10 @@ class Category extends Model
     | FUNCTIONS
     |--------------------------------------------------------------------------
     */
-
+    public function setSlugAttribute()
+    {
+        $this->attributes['slug'] =Str::slug($this->name, '-').'.html';
+    }
     /*
     |--------------------------------------------------------------------------
     | RELATIONS
