@@ -17,7 +17,7 @@ class CreateProductsTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('slug');
-            $table->longText()->default('Không có dữ liệu');
+            $table->longText('content')->default('Không có dữ liệu');
             $table->timestamps();
         });
     }
