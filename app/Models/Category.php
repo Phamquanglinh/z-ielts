@@ -38,7 +38,9 @@ class Category extends Model
     | RELATIONS
     |--------------------------------------------------------------------------
     */
-
+    public function getProduct(){
+        return $this->hasMany(Product::class,'category_id','id');
+    }
     /*
     |--------------------------------------------------------------------------
     | SCOPES

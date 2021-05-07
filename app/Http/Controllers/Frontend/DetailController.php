@@ -7,5 +7,7 @@ use Illuminate\Http\Request;
 
 class DetailController extends Controller
 {
-    //
+    public function render(){
+        return view('frontend.detail');
+    }
 }
