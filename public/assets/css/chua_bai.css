@@ -1,0 +1,33 @@
+.mainColor {
+    background-color: #33495d;
+}
+.bgMainColor {
+    background-color: #33495d;
+}
+.linkColor {
+    color: #33495d;
+}
+.btnViewMore{
+    padding: 15px 20px;
+}
+.btnSignIn{
+    padding: 10px 15px;
+    margin: 15px 0;
+}
+.btnViewMore,.btnSignIn {
+    background-color: #33495d;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.1s;
+}
+.btnViewMore:hover,.btnSignIn:hover {
+    background-color:#dc3545;
+    color: #fff;
+    text-decoration: none;
+}
+.wrap-title-first-content{
+    background-color: #33495d;
+    color: #fff;
+    text-align: center;
+    padding: 20px 5px;
+}
