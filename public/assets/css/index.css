@@ -106,7 +106,7 @@ table, th, td {
   border-collapse: collapse !important;
 }
 th, td {
-  padding: 15px !important;  
+  padding: 15px !important;
 }
 .wrap-second-inner{
   background-color: #f1f1f1;
@@ -151,6 +151,7 @@ th, td {
   background-color:#dc3545;
   color: rgb(255, 255, 255);
   text-decoration: none;
+   cursor: pointer;
 }
 .iconAbout {
   background-color: #33495d;
@@ -173,7 +174,7 @@ th, td {
   border: 1px solid #f96e5b;
   background-color: #f96e5b;
 }
-.sale,.saving { 
+.sale,.saving {
   padding: 0 10px;
   border-radius: 3px;
   text-align: center;
@@ -185,32 +186,24 @@ th, td {
 .card {
   border: none !important;
 }
-.tab button {
-  background-color: inherit;
+.tab a {
+  background-color: #ddd;
   border: none;
   cursor: pointer;
   transition: 0.3s;
   font-size: 17px;
   height: 70px;
+  text-decoration: none;
+  color: #000000;
+  display: block;
+  padding: 8px 5px 8px 10px;
 }
-.tab button:hover {
-  background-color: #ddd;
+.tab a:hover {
+  background-color: #809191;
+  color: #000;
 }
-.tab button.active {
+.tab a.active {
   background-color: #3599ae;
-}
-@media (max-width: 991px){
-  .tabcontent {
-    border-top: 1px solid #ccc;
-    display: none;
-    margin-top: 10px;
-  }
-}
-@media (min-width: 992px){
-  .tabcontent {
-    border-left: 1px solid #ccc;
-    display: none;
-  }
 }
 .spanTab,.linkTab {
   border-radius: 30px;
@@ -236,9 +229,6 @@ th, td {
 }
 .linkTab:hover>#arrow {
   transform: translateX(5px);
-}
-#secondTabs {
-  height:1500px !;
 }
 .course-title {
   background-color: #e8e8e8;
@@ -309,14 +299,6 @@ th, td {
   .sidenav a {font-size: 18px;}
 }
 
-@media  (max-width: 991px) {
-  .scroll-items {
-    overflow: scroll;
-    width: 100%;
-    height: 400px;
-  }
-}
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -326,8 +308,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -338,7 +320,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -492,12 +474,12 @@ input::-ms-clear, textarea::-ms-clear {
   cursor: pointer;
   visibility: hidden;
   opacity: 0;
-  transition: opacity 0.3s 0, visibility 0 0.3s;
+  transition: opacity 0.3s
 }
 .cd-user-modal.is-visible {
   visibility: visible;
   opacity: 1;
-  transition: opacity 0.3s 0, visibility 0 0;
+  transition: opacity 0.3s
 }
 .cd-user-modal.is-visible .cd-user-modal-container {
   transform: translateY(0);
@@ -588,15 +570,6 @@ input::-ms-clear, textarea::-ms-clear {
   background-repeat: no-repeat;
   background-position: 50% 0;
 }
-.cd-form label.cd-username {
-  background-image: url("../img/cd-icon-username.svg");
-}
-.cd-form label.cd-email {
-  background-image: url("../img/cd-icon-email.svg");
-}
-.cd-form label.cd-password {
-  background-image: url("../img/cd-icon-password.svg");
-}
 .cd-form input {
   margin: 0;
   padding: 0;
@@ -667,7 +640,7 @@ input::-ms-clear, textarea::-ms-clear {
   pointer-events: none;
   visibility: hidden;
   opacity: 0;
-  transition: opacity 0.2s 0, visibility 0 0.2s;
+  transition: opacity 0.2s
 }
 .cd-form .cd-error-message::after {
   /* triangle */
@@ -684,7 +657,7 @@ input::-ms-clear, textarea::-ms-clear {
 .cd-form .cd-error-message.is-visible {
   opacity: 1;
   visibility: visible;
-  transition: opacity 0.2s 0, visibility 0 0;
+  transition: opacity 0.2s
 }
 @media only screen and (min-width: 600px) {
   .cd-form {
@@ -742,7 +715,6 @@ input::-ms-clear, textarea::-ms-clear {
   height: 40px;
   right: 0;
   top: -40px;
-  background: url("../img/cd-icon-close.svg") no-repeat center center;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;

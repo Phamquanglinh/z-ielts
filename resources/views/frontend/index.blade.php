@@ -55,63 +55,60 @@
         </div>
         <!--cac khoa hoc-->
         <div class="wrap-first-content">
-            <h1 class="text-center pt-3">GÓI HỌC IELTS ONLINE</h1>
-            <p class="px-2 text-center">Bạn lựa chọn gói học phù hợp với nhu cầu và tài chính
-                & có thể nâng cấp gói học bất kì lúc nào và chỉ trả học phí chênh lệch</p>
+            <h1 class="text-center py-3">GÓI HỌC IELTS</h1>
             <div class="row px-2">
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                     <div class="bg-light rounded">
                         <div class="wrap-title-first-content">
-                            <h3>FOUNDATION</h3>
-                            <p>Làm chủ kỹ năng Nghe Đọc</p>
+                            <h3>PRE-IELTS</h3>
+                            <p>30 buổi</p>
                         </div>
-                        <h1 class="text-center text-danger m-2">400.000<sup><small>đ</small></sup></h1>
-                        <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Listening cơ bản</p>
-                        <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Reading cơ bản</p>
-                        <p class="m-2 py-2"><i class="far fa-check-circle"></i> Không bao gồm Writing, Speaking</p>
+                        <h1 class="text-center text-danger m-2">4.500.000<sup><small>đ</small></sup></h1>
+                        <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i>Các chủ điểm ngữ pháp cần thiết cho IELTS
+                        </p>
+                        <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Củng cố từ vựng cơ bản theo chủ đề
+                        </p>
+                        <p class="m-2 py-2"><i class="far fa-check-circle"></i> Dịch Việt-Anh để thực hành sử dụng ngữ pháp và từ vựng đã học</p>
+                        <p class="m-2 py-2"><i class="far fa-check-circle"></i> Luyện viết câu văn, đoạn văn nghị luận ngắn</p>
+                        <p class="m-2 py-2"><i class="far fa-check-circle"></i> Phát âm , giao tiếp các chủ đề quen thuộc</p>
                         <p class="text-center">
                             <a class="btn btn-danger text-center" href="#">ĐĂNG KÝ</a><br>
-                            <a class="btn" href="#"><small>So sánh chi tiết 3 gói</small></a>
                         </p>
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                     <div class="bg-light rounded">
                         <div class="wrap-title-first-content">
-                            <h3>OVERALL</h3>
-                            <p>Mục tiêu IELTS 6.0+ (Hỗ trợ giới hạn)</p>
+                            <h3>IELTS SPEAKING + WRITING</h3>
+                            <p>30 buổi</p>
                         </div>
-                        <h1 class="text-center text-danger p-2">1.200.000<sup><small>đ</small></sup></h1>
-                        <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Listening cơ bản</p>
-                        <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Reading cơ bản</p>
-                        <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Writing Task 1, 2 cơ bản</p>
-                        <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Speaking Part 1, 2, 3 cơ bản</p>
-                        <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Chữa bài Writing Speaking giới hạn</p>
-                        <p class="m-2 py-2"><i class="far fa-check-circle"></i> <b>TẶNG</b>: Series bài giảng Ngữ pháp</p>
+                        <h1 class="text-center text-danger p-2">6.000.000<sup><small>đ</small></sup></h1>
+                        <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i>  Các dạng bài IELTS WRITING ( 5 dạng Task 1 và 4 dạng Task 2)</p>
+                        <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i>   Luyện tập, sửa bài, phân tích lỗi sai để nâng điểm</p>
+                        <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Các phần của IELTS SPEAKING</p>
+                        <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i>  Cải thiện lượng từ vựng với chủ đề đa dạng</p>
+                        <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i>  Thực hành luyện Speaking theo bộ đề dự đoán mới nhất</p>
                         <p class="text-center">
                             <a class="btn btn-danger text-center" href="#">ĐĂNG KÝ</a><br>
-                            <a class="btn" href="#"><small>So sánh chi tiết 3 gói</small></a>
                         </p>
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                     <div class="bg-light rounded">
                         <div class="wrap-title-first-content">
-                            <h3>OVERALL PLUS</h3>
-                            <p>Mục tiêu IELTS 6.0+ (Hỗ trợ không giới hạn)</p>
+                            <h3>IELTS READING +
+                                LISTENING</h3>
+                            <p>20 buổi</p>
                         </div>
-                        <h1 class="text-center text-danger p-2">2.500.000<sup><small>đ</small></sup></h1>
-                        <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Listening cơ bản và luyện đề</p>
-                        <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Reading cơ bản và luyện đề</p>
-                        <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Writing Task 1, 2 cơ bản</p>
-                        <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Speaking Part 1, 2, 3 cơ bản</p>
-                        <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Chữa bài Writing Speaking vô hạn</p>
-                        <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> <b>TẶNG</b>: Series bài giảng Ngữ pháp</p>
-                        <p class="m-2 py-2"><i class="far fa-check-circle"></i> <b>TẶNG</b>: 2 cuốn Ebook Từ vựng
+                        <h1 class="text-center text-danger p-2">4.000.000<sup><small>đ</small></sup></h1>
+                        <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Các dạng bài READING và LISTENING trong kỳ thi IELTS
+                        </p>
+                        <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Hướng dẫn các phương pháp đọc hiểu nhanh và cải thiện khả năng nghe
+                        </p>
+                        <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Nâng cao vốn từ theo chủ đề đa dạng
                         </p>
                         <p class="text-center">
                             <a class="btn btn-danger text-center" href="#">ĐĂNG KÝ</a><br>
-                            <a class="btn" href="#"><small>So sánh chi tiết 3 gói</small></a>
                         </p>
                     </div>
                 </div>

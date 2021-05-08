@@ -7,7 +7,8 @@
     <title>{{isset($title) ? $title : 'ZIELTS-Education' }}</title>
     <link rel="icon" href="{{asset('assets/images/favicon.PNG')}}" sizes="32x32">
     <link rel="stylesheet" href="{{asset('assets/css/index.css')}}">
-    <link rel="stylesheet" href="{{asset('asset/css/animate.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/bai_hoc.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/animate.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/loginSignup.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/fontawesome/CSS/all.css')}}">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -19,7 +20,7 @@
 <header class="bg-header-footer sticky-top">
     <div class="container">
         <nav class="navbar navbar-expand-md navbar-dark py-0">
-            <button class="navbar-toggler border-0 mx-auto my-3 text-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <button class="navbar-toggler border-0 my-3 text-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <i class="fas fa-bars"></i> MENU
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -37,8 +38,8 @@
                     <li class="nav-item py-2 navItems ml-md-auto d-none d-md-block d-lg-none">
                         <a class="nav-link text-light pl-2 pl-md-0" href="{{route('course')}}"><i class="fas fa-book"></i> Học IELTS Online</a>
                     </li>
-                    <li class="nav-item dropdown navItems mx-md-auto my-auto">
-                        <a class="nav-link text-light pl-md-0" href="#">
+                    <li class="nav-item py-2 navItems ml-md-auto">
+                        <a class="nav-link text-light pl-2 pl-md-0" href="#">
                             <i class="fas fa-book"></i> Tài liệu
                         </a>
 {{--                        <div class="dropdown-menu">--}}
@@ -53,12 +54,27 @@
                         <a class="nav-link text-light pl-2 pl-md-0" href="chua_bai.html"><i class="fas fa-book"></i> Chữa bài Writing</a>
                     </li>
                 </ul>
-                <ul class="navbar-nav active mx-auto">
-                    <li class="position-relative nav-item active py-2 pl-2 pl-md-0 navItems">
+                <ul class="navbar-nav    mx-auto">
+                    <li class="position-relative nav-item py-2 pl-2 pl-md-0 navItems">
                         <nav class="main-nav">
                             <ul>
-                                <li class="nav-item"><a class="cd-signup nav-link text-light d-none d-md-block" href="#0"><i class="fas fa-sign-in-alt"></i> Đăng nhập</a></li>
-                                <li class="nav-item"><a class="cd-signup nav-link text-light d-md-none" href="signin_signup.html"><i class="fas fa-sign-in-alt"></i> Đăng nhập</a></li>
+                                @if(backpack_auth()->check())
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            {{backpack_user()->name}}
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            @if(backpack_user()->role == 1)
+                                                <a class="dropdown-item" href="{{route('backpack.dashboard')}}">Quản trị</a>
+                                                <div class="dropdown-divider"></div>
+                                            @endif
+                                            <a class="dropdown-item" href="{{route('backpack.auth.logout')}}">Đăng xuất</a>
+                                        </div>
+                                    </li>
+                                @else
+                                    <li class="nav-item"><a class="cd-signup nav-link text-light d-none d-md-block" href="{{route('backpack.auth.login')}}"><i class="fas fa-sign-in-alt"></i> Đăng nhập</a></li>
+                                    <li class="nav-item"><a class="cd-signup nav-link text-light d-md-none" href="{{route('backpack.auth.login')}}"><i class="fas fa-sign-in-alt"></i> Đăng nhập</a></li>
+                                @endif
                             </ul>
                         </nav>
                     </li>
@@ -202,6 +218,7 @@
         <p class="py-3 m-0">Bản quyền © 2021 - IELTS ZIELTS</p>
     </div>
 </footer>
+<script src="js/signup.js"></script>
 <script>
     function openCity(evt, cityName) {
         var i, tabcontent, tablinks;
@@ -216,25 +233,48 @@
         document.getElementById(cityName).style.display = "block";
         evt.currentTarget.className += " active";
     }
-
     document.getElementById("defaultOpen").click();
 </script>
-<script src="{{asset('assets/js/signup.js')}}"></script>
 <script>
-    function openCity(evt, cityName) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        document.getElementById(cityName).style.display = "block";
-        evt.currentTarget.className += " active";
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
     }
-    document.getElementById("defaultOpen").click();
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+    }
+</script>
+<script>
+    $(".sidebar-dropdown > a").click(function() {
+        $(".sidebar-submenu").slideUp(200);
+        if (
+            $(this)
+                .parent()
+                .hasClass("active")
+        ) {
+            $(".sidebar-dropdown").removeClass("active");
+            $(this)
+                .parent()
+                .removeClass("active");
+        } else {
+            $(".sidebar-dropdown").removeClass("active");
+            $(this)
+                .next(".sidebar-submenu")
+                .slideDown(200);
+            $(this)
+                .parent()
+                .addClass("active");
+        }
+    });
+
+    $("#close-sidebar").click(function() {
+        $(".page-wrapper").removeClass("toggled");
+    });
+    $("#show-sidebar").click(function() {
+        $(".page-wrapper").addClass("toggled");
+    });
 </script>
 </body>
 </html>

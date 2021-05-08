@@ -1,5 +1,6 @@
 @extends('layout.app')
 @section('content')
+    <link rel="stylesheet" href="{{asset('assets/css/bai_hoc.css')}}">
     <div class="container my-4">
         <div class="row">
             <div class="tab col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 m-0 p-0">
@@ -30,17 +31,20 @@
                 </div>
                 <div id="secondTab" class="tabcontent col-12 container">
                     <h4 class="m-4 w-100">Thông tin giảng viên</h4>
-                    <div class="row">
-                        <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                            <img class="w-100 m-2 rounded" src="{{asset('assets/images/avatar/avt.png')}}">
+                    @foreach($teachers as $teacher)
+                        <div class="row">
+                            <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4" style="max-height: 250px;overflow: hidden">
+                                <img class="w-100 m-2 rounded" src="{{$teacher->avatar}}">
+                            </div>
+                            <div class="col-12 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+                                <p><b>Tên:</b> {{$teacher->name}}</p>
+                                <p><b>Nghề nghiệp:</b> Giảng viên</p>
+                                <p><b>Chi tiết:</b> {{$teacher->detail}}</p>
+                                <p><b>Email:</b> {{$teacher->email}}</p>
+                            </div>
                         </div>
-                        <div class="col-12 col-sm-8 col-md-8 col-lg-8 col-xl-8">
-                            <p><b>Tên:</b> Thanh Loan</p>
-                            <p><b>Nghề nghiệp:</b> Giảng viên</p>
-                            <p><b>Chi tiết:</b> Sáng lập IELTS Thanh Loan - Cung cấp khóa học IELTS Online, sách luyện thi IELTS chất lượng</p>
-                            <p><b>Email:</b> hi@ielts-thanhloan.com</p>
-                        </div>
-                    </div>
+                        <hr>
+                    @endforeach
                 </div>
             </div>
         </div>

@@ -1,59 +1,99 @@
+@php
+$title = $mainProduct->name;
+@endphp
 @extends('layout.app')
 @section('content')
-    <div class="container my-4">
-        <div class="row">
-            <h5 class="p-4 pb-0 mb-0 w-100 bgMainColor text-light text-uppercase text-center">Khóa học IELTS Online 4 kỹ năng (Academic)</h5>
-            <div class="tab col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 m-0 p-0 scroll-items">
-                <div class="mb-3">
-                    <h6 class="p-4 active m-0">IELTS Listening</h6>
-                    <button class="tablinks w-100 text-left pl-4" onclick="openCity(event, 'firstTab')" id="defaultOpen"> <i class="fas fa-circle"></i>   <i class="fas fa-file-alt"></i> 1. Thông tin cơ bản về IELTS Listening</button>
-                    <button class="tablinks w-100 text-left pl-4" onclick="openCity(event, 'secondTabs')"> <i class="far fa-circle"></i>   <i class="fas fa-file-alt"></i> 2. Dạng câu hỏi Letters and Numbers</button>
-                    <button class="tablinks w-100 text-left pl-4" onclick="openCity(event, '3thTabs')"><i class="far fa-circle"></i>   <i class="fas fa-file-alt"></i> 3. Dạng câu hỏi Sentence /Form /Note /Summary /Table Completion</button>
-                    <button class="tablinks w-100 text-left pl-4" onclick="openCity(event, '4thTabs')"> <i class="far fa-circle"></i>   <i class="fas fa-file-alt"></i> 4. Dạng câu hỏi Map Labelling</button>
-                    <button class="tablinks w-100 text-left pl-4" onclick="openCity(event, '5thTabs')"> <i class="far fa-circle"></i>   <i class="fas fa-file-alt"></i> 5. Dạng câu hỏi Multiple Choice Question</button>
-                    <button class="tablinks w-100 text-left pl-4" onclick="openCity(event, '6thTabs')"><i class="far fa-circle"></i>   <i class="fas fa-file-alt"></i> 6. Dạng câu hỏi Matching</button>
-                    <button class="tablinks w-100 text-left pl-4" onclick="openCity(event, '7thTabs')"><i class="far fa-circle"></i>   <i class="fas fa-file-alt"></i> 7. Dạng câu hỏi Short-Answer Question</button>
-                    <button class="tablinks w-100 text-left pl-4" onclick="openCity(event, '8thTabs')"><i class="far fa-circle"></i>   <i class="fas fa-file-alt"></i> 8. Dạng câu hỏi Diagram/Flow-Chart Labelling</button>
-                    <button class="tablinks w-100 text-left pl-4" onclick="openCity(event, '9thTabs')"><i class="far fa-circle"></i>   <i class="fas fa-file-alt"></i> 9. Luyện IELTS Listening - Part 1</button>
-                    <button class="tablinks w-100 text-left pl-4" onclick="openCity(event, '10thTabs')"><i class="far fa-circle"></i>   <i class="fas fa-file-alt"></i> 10. Luyện IELTS Listening - Part 2</button>
-                    <button class="tablinks w-100 text-left pl-4" onclick="openCity(event, '11thTabs')"><i class="far fa-circle"></i>   <i class="fas fa-file-alt"></i> 11. Luyện IELTS Listening - Part 3</button>
-                    <button class="tablinks w-100 text-left pl-4" onclick="openCity(event, '12thTabs')"><i class="far fa-circle"></i>   <i class="fas fa-file-alt"></i> 12. Luyện IELTS Listening - Part 4</button>
-                    <button class="tablinks w-100 text-left pl-4" onclick="openCity(event, '13thTabs')"><i class="far fa-circle"></i>   <i class="fas fa-file-alt"></i> 13. Luyện IELTS Listening - Full Test 1</button>
-                </div>
-                <div class="mb-3">
-                    <h6 class="p-4 active m-0">IELTS Reading</h6>
-                    <button class="tablinks w-100 text-left pl-4" onclick="openCity(event, 'firstTab2')" id="defaultOpen"> <i class="far fa-circle"></i>   <i class="fas fa-file-alt"></i> 1. demo</button>
-                    <button class="tablinks w-100 text-left pl-4" onclick="openCity(event, 'secondTabs2')"> <i class="far fa-circle"></i>   <i class="fas fa-file-alt"></i> 2. demo</button>
-                    <button class="tablinks w-100 text-left pl-4" onclick="openCity(event, '3thTabs2')"><i class="far fa-circle"></i>   <i class="fas fa-file-alt"></i> 3. demo</button>
-                    <button class="tablinks w-100 text-left pl-4" onclick="openCity(event, '4thTabs2')"> <i class="far fa-circle"></i>   <i class="fas fa-file-alt"></i> 4. demo</button>
-                    <button class="tablinks w-100 text-left pl-4" onclick="openCity(event, '5thTabs2')"> <i class="far fa-circle"></i>   <i class="fas fa-file-alt"></i> 5. demo</button>
-                    <button class="tablinks w-100 text-left pl-4" onclick="openCity(event, '6thTabs2')"><i class="far fa-circle"></i>   <i class="fas fa-file-alt"></i> 6. demo</button>
-                </div>
-            </div>
-            <div class="row col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 m-0 p-0">
-                <!--Tab1-->
-                <div id="firstTab" class="tabcontent col-12 container p-3 w-100">404 NOT FOUND</div>
-                <div id="secondTabs" class="tabcontent col-12 container p-3 w-100">404 NOT FOUND</div>
-                <div id="3thTabs" class="tabcontent col-12 container p-3 w-100">404 NOT FOUND</div>
-                <div id="4thTabs" class="tabcontent col-12 container p-3 w-100">404 NOT FOUND</div>
-                <div id="5thTabs" class="tabcontent col-12 container p-3 w-100">404 NOT FOUND</div>
-                <div id="6thTabs" class="tabcontent col-12 container p-3 w-100">404 NOT FOUND</div>
-                <div id="7thTabs" class="tabcontent col-12 container p-3 w-100">404 NOT FOUND</div>
-                <div id="8thTabs" class="tabcontent col-12 container p-3 w-100">404 NOT FOUND</div>
-                <div id="9thTabs" class="tabcontent col-12 container p-3 w-100">404 NOT FOUND</div>
-                <div id="10thTabs" class="tabcontent col-12 container p-3 w-100">404 NOT FOUND</div>
-                <div id="11thTabs" class="tabcontent col-12 container p-3 w-100">404 NOT FOUND</div>
-                <div id="12thTabs" class="tabcontent col-12 container p-3 w-100">404 NOT FOUND</div>
-                <div id="13thTabs" class="tabcontent col-12 container p-3 w-100">404 NOT FOUND</div>
-                <!--Tab2-->
-                <div id="firstTab2" class="tabcontent col-12 container p-3 w-100">404 NOT FOUND</div>
-                <div id="secondTabs2" class="tabcontent col-12 container p-3 w-100">404 NOT FOUND</div>
-                <div id="3thTabs2" class="tabcontent col-12 container p-3 w-100">404 NOT FOUND</div>
-                <div id="4thTabs2" class="tabcontent col-12 container p-3 w-100">404 NOT FOUND</div>
-                <div id="5thTabs2" class="tabcontent col-12 container p-3 w-100">404 NOT FOUND</div>
-                <div id="6thTabs2" class="tabcontent col-12 container p-3 w-100">404 NOT FOUND</div>
+    <div class="container my-4 d-lg-none">
+        <div class="page-wrapper chiller-theme toggled">
+            <a id="show-sidebar" class="btn btn-sm btn-dark pt-5 mt-3" href="#">
+                <i class="fas fa-bars"></i>
+            </a>
+            <nav id="sidebar" class="sidebar-wrapper py-3 mt-5">
+                <div class="sidebar-content">
+                    <div class="sidebar-brand">
+                        <h6>DANH SÁCH</h6>
+                        <div id="close-sidebar">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
 
+                    <div class="sidebar-header">
+                        <span class="header-menu font-weight-bold">Nội dung khóa học</span>
+                    </div>
+
+                    <div class="sidebar-menu mb-5">
+                        <ul>
+                            @foreach($categories as $category)
+                            <li class="header-menu mt-3">
+                                <span>{{$category->name}}</span>
+                            </li>
+                                @foreach($category->getProduct()->get() as $product)
+                                    <li>
+                                        <a href="{{route('detail',$product->slug)}}"> <i class="fas fa-file-alt"></i>
+                                            {{$product->name}}
+                                        </a>
+                                    </li>
+                                @endforeach
+                            @endforeach
+                        </ul>
+                    </div>
+                    <!-- sidebar-menu  -->
+                </div>
+                <!-- sidebar-content  -->
+            </nav>
+            <!-- sidebar-wrapper  -->
+            <main class="page-content">
+                <div class="container">
+                    <div class="text-dark h2 text-uppercase">{{$mainProduct->name}}</div>
+                    <hr>
+                    @if($mainProduct->online_price > 0)
+                        <div class="text-danger h4">Học online: {{$mainProduct->online_price}} đ</div>
+                    @endif
+                    @if($mainProduct->offline_price > 0)
+                        <div class="text-danger h4">Học offline: {{$mainProduct->offline_price}} đ</div>
+                    @endif
+                    <hr>
+                    <div class="h4 pt-2">Nội dung</div>
+                    <div class="pt-2">
+                        {!! $mainProduct->content !!}
+                    </div>
+                </div>
+            </main>
+            <!-- page-content" -->
+        </div>
+        <!-- page-wrapper -->
+    </div>
+    <div class="container my-4 d-none d-lg-block">
+        <div class="row">
+            <h5 class="p-4 pb-0 mb-0 w-100 bgMainColor text-white text-light text-uppercase text-center">Các khóa học</h5>
+            <div class="tab col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 m-0 p-0">
+                @foreach($categories as $category)
+                    <div class="mb-3">
+                        <h6 class="p-4 active text-white m-0">{{$category->name}}</h6>
+                        @foreach($category->getProduct()->get() as $product)
+                        <a href="{{route('detail',$product->slug)}}" class="w-100 text-left"> <i class="{{$product->slug == $mainProduct->slug ? 'fas' :'far' }} fa-circle"></i> <i class="fas fa-file-alt"></i>
+                            {{$product->name}} </a>
+                        @endforeach
+                    </div>
+                @endforeach
+            </div>
+            <div class="col-lg-9 col-12">
+                <div class="container pt-5">
+                    <div class="text-dark h2 text-uppercase">{{$mainProduct->name}}</div>
+                    <hr>
+                    @if($mainProduct->online_price > 0)
+                        <div class="text-danger h4">Học online: {{$mainProduct->online_price}} đ</div>
+                    @endif
+                    @if($mainProduct->offline_price > 0)
+                        <div class="text-danger h4">Học offline: {{$mainProduct->offline_price}} đ</div>
+                    @endif
+                    <hr>
+                    <div class="h4 pt-2">Nội dung</div>
+                    <div class="pt-2">
+                        {!! $mainProduct->content !!}
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-@endsection()
+@endsection
