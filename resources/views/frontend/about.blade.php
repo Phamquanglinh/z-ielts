@@ -37,9 +37,9 @@
 
                 </div>
                 <h6 class="w-100 bgMainColor text-light py-3 text-center my-4">Chữa bài IELTS Writing</h6>
-                <img src="{{asset('assets/images/4fe782cd009bf0c5a98a.jpg')}}" class="w-100 p-3 pb-5">
+                <img src="{{asset('assets/images/banner 1.png')}}" class="w-100 p-3 pb-5">
                 <h6 class="w-100 bgMainColor text-light py-3 text-center">Khóa học IELTS online</h6>
-                <img src="{{asset('assets/images/Banner-moi-ngay.jpg')}}" class="w-100 p-3 pb-5 fixedBanner">
+                <img src="{{asset('assets/images/banner 2.png')}}" class="w-100 p-3 pb-5 fixedBanner">
             </div>
         </div>
     </div>
