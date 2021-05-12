@@ -51,8 +51,8 @@
                     <div class="text-center py-3">
                         <a href="#" class="text-light btnViewMore text-uppercase">xem bài chữa mẫu</a>
                     </div>
-                    <h3 class="text-danger py-3">Quy trình đăng ký dịch vụ chữa bài</h3>
-                    <img src="{{asset('/assets/images/banner-chua-bai.jpg')}}" class="w-100 pb-5">
+{{--                    <h3 class="text-danger py-3">Quy trình đăng ký dịch vụ chữa bài</h3>--}}
+{{--                    <img src="{{asset('/assets/images/banner-chua-bai.jpg')}}" class="w-100 pb-5">--}}
                     <div class="row px-2">
                         <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                             <div class="bg-light rounded">
