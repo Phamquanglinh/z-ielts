@@ -64,7 +64,7 @@
                                             {{backpack_user()->name}}
                                         </a>
                                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            @if(backpack_user()->role == 1)
+                                            @if(backpack_user()->role == 2)
                                                 <a class="dropdown-item" href="{{route('backpack.dashboard')}}">Quản trị</a>
                                                 <div class="dropdown-divider"></div>
                                             @endif
@@ -199,16 +199,16 @@
                 <p class="p-2 bg-header-footer text-center text-light">Sản phẩm/Dịch vụ</p>
                 <ul>
                     <li class="link-footer"><a href="#"><i class="fas fa-book"></i> Khóa học IELTS Online</a><br></li>
-                    <li class="link-footer"><a href="#"><i class="fas fa-book"></i> Sách IELTS Academic</a><br></li>
-                    <li class="link-footer"><a href="#"><i class="fas fa-book"></i> Sách IELTS General Training</a><br></li>
+                    <li class="link-footer"><a href="#"><i class="fas fa-book"></i> Tài liệu IELTS Academic</a><br></li>
                     <li class="link-footer"><a href="#"><i class="fas fa-book"></i> Dịch vụ chữa bài IELTS Writing</a></li>
                 </ul>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                 <p class="p-2 bg-header-footer text-light text-center">Social Media</p>
                 <ul>
-                    <li class="link-footer"><a href="#"><i class="fas fa-share-square"></i> IELTS ZIELTS trên Youtube</a><br></li>
-                    <li class="link-footer"><a href="#"><i class="fas fa-share-square"></i> IELTS ZIELTS trên Facebook</a><br></li>
+                    <li class="link-footer"><a href="#"><i class="fas fa-share-square"></i>  ZIELTS trên Youtube</a><br></li>
+                    <li class="link-footer"><a href="#"><i class="fas fa-share-square"></i> ZIELTS trên Facebook</a><br></li>
+                    <li class="link-footer"><a href="#"><i class="fas fa-share-square"></i> ZIELTS trên Tiktok</a><br></li>
                     <li><img src="{{asset('assets/images/logoSaleNoti.png')}}"></li>
                 </ul>
             </div>
