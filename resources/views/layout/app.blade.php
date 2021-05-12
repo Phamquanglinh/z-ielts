@@ -48,10 +48,10 @@
 {{--                        </div>--}}
                     </li>
                     <li class="nav-item d-none d-md-block py-2 d-lg-none navItems mx-auto">
-                        <a class="nav-link text-light" href="chua_bai.html"><i class="fas fa-book"></i> Chữa bài</a>
+                        <a class="nav-link text-light" href="{{route('correcting')}}"><i class="fas fa-book"></i> Chữa bài</a>
                     </li>
                     <li class="nav-item d-block d-md-none py-2 d-lg-block navItems mx-md-auto">
-                        <a class="nav-link text-light pl-2 pl-md-0" href="chua_bai.html"><i class="fas fa-book"></i> Chữa bài Writing</a>
+                        <a class="nav-link text-light pl-2 pl-md-0" href="{{route('correcting')}}"><i class="fas fa-book"></i> Chữa bài Writing</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav    mx-auto">
@@ -189,10 +189,10 @@
             <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                 <p class="p-2 bg-header-footer text-center text-light">Giới thiệu</p>
                 <ul>
-                    <li class="link-footer"><a href="{{route('about')}}"><i class="fas fa-user"></i> Về ZIELTS</a><br></li>
+                    <li class="link-footer"><a href="{{route('about')}}"><i class="fas fa-user"></i> Về ZIELTS EDUCATION</a><br></li>
                     <li class="link-footer"><a href="{{route('page','faq')}}"><i class="fas fa-question-circle"></i> Câu hỏi thường gặp</a><br></li>
                     <li class="link-footer"><a href="{{route('page','payment')}}"><i class="far fa-money-bill-alt"></i> Hướng dẫn thanh toán</a><br></li>
-                    <li class="link-footer"><a href="{{route('page','contact')}}"><i class="fas fa-envelope"></i> Liên hệ IELTS ZIELTS</a></li>
+                    <li class="link-footer"><a href="{{route('page','contact')}}"><i class="fas fa-envelope"></i> Liên hệ ZIELTS EDUCATION</a></li>
                 </ul>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
@@ -206,9 +206,9 @@
             <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                 <p class="p-2 bg-header-footer text-light text-center">Social Media</p>
                 <ul>
-                    <li class="link-footer"><a href="#"><i class="fas fa-share-square"></i>  ZIELTS trên Youtube</a><br></li>
-                    <li class="link-footer"><a href="#"><i class="fas fa-share-square"></i> ZIELTS trên Facebook</a><br></li>
-                    <li class="link-footer"><a href="#"><i class="fas fa-share-square"></i> ZIELTS trên Tiktok</a><br></li>
+                    <li class="link-footer"><a href="#"><i class="fas fa-share-square"></i>  ZIELTS EDUCATION trên Youtube</a><br></li>
+                    <li class="link-footer"><a href="#"><i class="fas fa-share-square"></i> ZIELTS EDUCATION trên Facebook</a><br></li>
+                    <li class="link-footer"><a href="#"><i class="fas fa-share-square"></i> ZIELTS EDUCATION trên Tiktok</a><br></li>
                     <li><img src="{{asset('assets/images/logoSaleNoti.png')}}"></li>
                 </ul>
             </div>
