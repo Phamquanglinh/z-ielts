@@ -4,21 +4,21 @@
         <div class="bg-light rounded pb-5">
             <h2 class="text-center py-5 px-2">Dịch vụ chữa bài IELTS Writing (kèm chấm band và bài mẫu)</h2>
             <div class="text-center">
-                <iframe class="d-none d-lg-block mx-auto" width="900" height="500" src="https://www.youtube.com/embed/Nnlze1mLW5c"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                </iframe>
-                <iframe class="d-none d-sm-block d-lg-none mx-auto" width="500" height="280" src="https://www.youtube.com/embed/Nnlze1mLW5c"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                </iframe>
-                <iframe class="d-sm-none mx-auto" width="290" height="160" src="https://www.youtube.com/embed/Nnlze1mLW5c"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                </iframe>
+{{--                <iframe class="d-none d-lg-block mx-auto" width="900" height="500" src="https://www.youtube.com/embed/Nnlze1mLW5c"--}}
+{{--                        title="YouTube video player" frameborder="0"--}}
+{{--                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"--}}
+{{--                        allowfullscreen>--}}
+{{--                </iframe>--}}
+{{--                <iframe class="d-none d-sm-block d-lg-none mx-auto" width="500" height="280" src="https://www.youtube.com/embed/Nnlze1mLW5c"--}}
+{{--                        title="YouTube video player" frameborder="0"--}}
+{{--                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"--}}
+{{--                        allowfullscreen>--}}
+{{--                </iframe>--}}
+{{--                <iframe class="d-sm-none mx-auto" width="290" height="160" src="https://www.youtube.com/embed/Nnlze1mLW5c"--}}
+{{--                        title="YouTube video player" frameborder="0"--}}
+{{--                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"--}}
+{{--                        allowfullscreen>--}}
+{{--                </iframe>--}}
                 <br>
                 <i>Dịch vụ dành riêng cho những bạn muốn cải thiện kỹ năng viết trước khi tham gia thi thật.</i>
             </div>
