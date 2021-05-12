@@ -458,77 +458,77 @@
         </div>
     </div>
     <!--FAQ-->
-    <h1 class="pt-4 my-5 text-center"> CÂU HỎI THƯỜNG GẶP</h1>
-    <div class="container mb-5">
-        <div id="accordion">
-            <div class="card">
-                <div class="card-header">
-                    <a class="card-link text-dark font-weight-bold" data-toggle="collapse" href="#collapseOne">
-                        Tôi có thể xem trước một số nội dung tham khảo không?
-                    </a>
-                </div>
-                <div id="collapseOne" class="collapse show" data-parent="#accordion">
-                    <div class="card-body">
-                        <p>Có thể. Bạn tham khảo các nội dung học thử mà cô cung cấp như sau: </p>
-                        <p>– Bài giảng tham khảo cho phần Listening tại đây<br>
-                            – Bài giảng tham khảo cho phần Reading tại đây <br>
-                            – Bài giảng tham khảo cho phần Writing Task 1 tại đây và Writing Task 2 tại đây <br>
-                            – Bài giảng tham khảo cho phần Speaking tại đây <br>
-                            – Bài giảng tham khảo cho phần Grammar tại đây <br>
-                            – Bài chữa mẫu tham khảo cho kỹ năng Writing tại đây <br>
-                            – Bài chữa mẫu tham khảo cho kỹ năng Speaking tại đây <br>
-                            – Giáo trình đi kèm với các bài giảng online có thể tham khảo tại đây<br>
-                            – Ebook Từ vựng & Ý tưởng IELTS Writing đọc thử tại đây và ebook Từ vựng & Ý tưởng IELTS Speaking đọc thử tại đây</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    <a class="collapsed card-link text-dark font-weight-bold" data-toggle="collapse" href="#collapseTwo">
-                        Tôi có thể chuyển giữa các gói học không?
-                    </a>
-                </div>
-                <div id="collapseTwo" class="collapse" data-parent="#accordion">
-                    <div class="card-body">
-                        Có. Bạn có thể nâng cấp gói học IELTS online bất kì lúc nào.
-                        Bạn chỉ cần trả phần học phí chênh lệch.<br>
-                        <i>Ví dụ bạn đang ở gói Overall (1.200.000) và muốn nâng cấp lên gói Overall Plus (2.500.000),
-                            ban chỉ cần đóng học học phí là 1.300.000
-                        </i>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    <a class="collapsed card-link text-dark font-weight-bold" data-toggle="collapse" href="#collapseThree">
-                        Tôi đăng ký và thanh toán gói học như thế nào?
-                    </a>
-                </div>
-                <div id="collapseThree" class="collapse" data-parent="#accordion">
-                    <div class="card-body">
-                        Bước 1: Lựa chọn đăng ký mua gói khóa học trên webiste<br>
-                        Bước 2: Thanh toán học phí gói khóa học qua chuyển khoản ngân hàng, Momo…<br>
-                        Bước 3: Truy cập tài khoản đã đăng ký là có thể học được luôn
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    <a class="collapsed card-link text-dark font-weight-bold" data-toggle="collapse" href="#collapseFour">
-                        Tôi liên hệ với ai khi cần hỗ trợ?
-                    </a>
-                </div>
-                <div id="collapseFour" class="collapse" data-parent="#accordion">
-                    <div class="card-body">
-                        Bạn liên hệ qua các kênh sau đây:
-                        – <a href="#" class="linkColor">Fanpage IELTS Thanh Loan</a>
-                        – Email: hi@ielts-thanhloan.com
-                        – Zalo/ĐT: 0974824724 (cô Loan)
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!--end faq-->
+{{--    <h1 class="pt-4 my-5 text-center"> CÂU HỎI THƯỜNG GẶP</h1>--}}
+{{--    <div class="container mb-5">--}}
+{{--        <div id="accordion">--}}
+{{--            <div class="card">--}}
+{{--                <div class="card-header">--}}
+{{--                    <a class="card-link text-dark font-weight-bold" data-toggle="collapse" href="#collapseOne">--}}
+{{--                        Tôi có thể xem trước một số nội dung tham khảo không?--}}
+{{--                    </a>--}}
+{{--                </div>--}}
+{{--                <div id="collapseOne" class="collapse show" data-parent="#accordion">--}}
+{{--                    <div class="card-body">--}}
+{{--                        <p>Có thể. Bạn tham khảo các nội dung học thử mà cô cung cấp như sau: </p>--}}
+{{--                        <p>– Bài giảng tham khảo cho phần Listening tại đây<br>--}}
+{{--                            – Bài giảng tham khảo cho phần Reading tại đây <br>--}}
+{{--                            – Bài giảng tham khảo cho phần Writing Task 1 tại đây và Writing Task 2 tại đây <br>--}}
+{{--                            – Bài giảng tham khảo cho phần Speaking tại đây <br>--}}
+{{--                            – Bài giảng tham khảo cho phần Grammar tại đây <br>--}}
+{{--                            – Bài chữa mẫu tham khảo cho kỹ năng Writing tại đây <br>--}}
+{{--                            – Bài chữa mẫu tham khảo cho kỹ năng Speaking tại đây <br>--}}
+{{--                            – Giáo trình đi kèm với các bài giảng online có thể tham khảo tại đây<br>--}}
+{{--                            – Ebook Từ vựng & Ý tưởng IELTS Writing đọc thử tại đây và ebook Từ vựng & Ý tưởng IELTS Speaking đọc thử tại đây</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="card">--}}
+{{--                <div class="card-header">--}}
+{{--                    <a class="collapsed card-link text-dark font-weight-bold" data-toggle="collapse" href="#collapseTwo">--}}
+{{--                        Tôi có thể chuyển giữa các gói học không?--}}
+{{--                    </a>--}}
+{{--                </div>--}}
+{{--                <div id="collapseTwo" class="collapse" data-parent="#accordion">--}}
+{{--                    <div class="card-body">--}}
+{{--                        Có. Bạn có thể nâng cấp gói học IELTS online bất kì lúc nào.--}}
+{{--                        Bạn chỉ cần trả phần học phí chênh lệch.<br>--}}
+{{--                        <i>Ví dụ bạn đang ở gói Overall (1.200.000) và muốn nâng cấp lên gói Overall Plus (2.500.000),--}}
+{{--                            ban chỉ cần đóng học học phí là 1.300.000--}}
+{{--                        </i>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="card">--}}
+{{--                <div class="card-header">--}}
+{{--                    <a class="collapsed card-link text-dark font-weight-bold" data-toggle="collapse" href="#collapseThree">--}}
+{{--                        Tôi đăng ký và thanh toán gói học như thế nào?--}}
+{{--                    </a>--}}
+{{--                </div>--}}
+{{--                <div id="collapseThree" class="collapse" data-parent="#accordion">--}}
+{{--                    <div class="card-body">--}}
+{{--                        Bước 1: Lựa chọn đăng ký mua gói khóa học trên webiste<br>--}}
+{{--                        Bước 2: Thanh toán học phí gói khóa học qua chuyển khoản ngân hàng, Momo…<br>--}}
+{{--                        Bước 3: Truy cập tài khoản đã đăng ký là có thể học được luôn--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="card">--}}
+{{--                <div class="card-header">--}}
+{{--                    <a class="collapsed card-link text-dark font-weight-bold" data-toggle="collapse" href="#collapseFour">--}}
+{{--                        Tôi liên hệ với ai khi cần hỗ trợ?--}}
+{{--                    </a>--}}
+{{--                </div>--}}
+{{--                <div id="collapseFour" class="collapse" data-parent="#accordion">--}}
+{{--                    <div class="card-body">--}}
+{{--                        Bạn liên hệ qua các kênh sau đây:--}}
+{{--                        – <a href="#" class="linkColor">Fanpage IELTS Thanh Loan</a>--}}
+{{--                        – Email: hi@ielts-thanhloan.com--}}
+{{--                        – Zalo/ĐT: 0974824724 (cô Loan)--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div><!--end faq-->--}}
     <div class="container my-5">
         <div class="wrap-second-inner row">
             <h1 class="col-12 text-primary text-uppercase py-4 text-center">học viên đánh giá về khóa học</h1>
