@@ -32,11 +32,8 @@
                     <li class="nav-item d-md-none d-lg-block py-2 navItems ml-md-2 mr-auto">
                         <a class="nav-link text-light pl-2 pl-md-0" href="{{route('about')}}"><i class="fas fa-user"></i> Về ZIELTS</a>
                     </li>
-                    <li class="nav-item py-2 navItems ml-md-auto d-md-none d-lg-block">
-                        <a class="nav-link text-light pl-2 pl-md-0" href="{{route('course')}}"><i class="fas fa-book"></i> Khóa học IELTS Online</a>
-                    </li>
-                    <li class="nav-item py-2 navItems ml-md-auto d-none d-md-block d-lg-none">
-                        <a class="nav-link text-light pl-2 pl-md-0" href="{{route('course')}}"><i class="fas fa-book"></i> Học IELTS Online</a>
+                    <li class="nav-item py-2 navItems ml-md-auto ">
+                        <a class="nav-link text-light pl-2 pl-md-0" href="{{route('course')}}"><i class="fas fa-book"></i> Khóa học</a>
                     </li>
                     <li class="nav-item py-2 navItems ml-md-auto">
                         <a class="nav-link text-light pl-2 pl-md-0" href="#">
