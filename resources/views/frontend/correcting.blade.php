@@ -62,7 +62,7 @@
                                 </div>
                                 <h3 class="text-center text-danger m-2">1.500.000<sup><small>đ</small></sup></h3>
                                     <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Đội ngũ giáo viên 8.0 sửa bài viết</p>
-                                    <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Đội ngũ giáo viên 8.0 sửa bài viết</p>
+                                    <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Sửa lỗi sai chi tiết kèm chỉ dẫn cải thiện</p>
                                     <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Linh hoạt thời gian</p>
                                     <p class="m-2 py-2"><i class="far fa-check-circle"></i> Nhận bài chữa sau 48h hành chính</p>
                                     <p class="text-center">
@@ -79,7 +79,7 @@
                                 </div>
                                 <h3 class="text-center text-danger m-2">2.800.000<sup><small>đ</small></sup></h3>
                                 <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Đội ngũ giáo viên 8.0 sửa bài viết</p>
-                                <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Đội ngũ giáo viên 8.0 sửa bài viết</p>
+                                <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Sửa lỗi sai chi tiết kèm chỉ dẫn cải thiện</p>
                                 <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Linh hoạt thời gian</p>
                                 <p class="m-2 py-2"><i class="far fa-check-circle"></i> Nhận bài chữa sau 48h hành chính</p>
                                 <p class="text-center">
@@ -96,7 +96,7 @@
                                 </div>
                                 <h3 class="text-center text-danger m-2">4.200.000<sup><small>đ</small></sup></h3>
                                 <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Đội ngũ giáo viên 8.0 sửa bài viết</p>
-                                <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Đội ngũ giáo viên 8.0 sửa bài viết</p>
+                                <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Sửa lỗi sai chi tiết kèm chỉ dẫn cải thiện</p>
                                 <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Linh hoạt thời gian</p>
                                 <p class="m-2 py-2"><i class="far fa-check-circle"></i> Nhận bài chữa sau 48h hành chính</p>
                                 <p class="text-center">
