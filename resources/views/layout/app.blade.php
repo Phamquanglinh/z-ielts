@@ -189,10 +189,10 @@
             <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                 <p class="p-2 bg-header-footer text-center text-light">Giới thiệu</p>
                 <ul>
-                    <li class="link-footer"><a href="#"><i class="fas fa-user"></i> Về ZIELTS</a><br></li>
-                    <li class="link-footer"><a href="#"><i class="fas fa-question-circle"></i> Câu hỏi thường gặp</a><br></li>
-                    <li class="link-footer"><a href="#"><i class="far fa-money-bill-alt"></i> Hướng dẫn thanh toán</a><br></li>
-                    <li class="link-footer"><a href="#"><i class="fas fa-envelope"></i> Liên hệ IELTS ZIELTS</a></li>
+                    <li class="link-footer"><a href="{{route('about')}}"><i class="fas fa-user"></i> Về ZIELTS</a><br></li>
+                    <li class="link-footer"><a href="{{route('page','faq')}}"><i class="fas fa-question-circle"></i> Câu hỏi thường gặp</a><br></li>
+                    <li class="link-footer"><a href="{{route('page','payment')}}"><i class="far fa-money-bill-alt"></i> Hướng dẫn thanh toán</a><br></li>
+                    <li class="link-footer"><a href="{{route('page','contact')}}"><i class="fas fa-envelope"></i> Liên hệ IELTS ZIELTS</a></li>
                 </ul>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">

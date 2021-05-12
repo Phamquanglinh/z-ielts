@@ -9,7 +9,7 @@
             <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
                 <div class="py-3 w-100" id="borderAddress">
                     <i class="fas fa-home"> <a href="{{route('index')}}" class="linkColor">Trang chủ</a> / Giới thiệu
-                        về cô ZIELTS</i>
+                        về ZIELTS</i>
                 </div>
                 <h3 class="py-2 px-0 col-12">Giới thiệu về ZIELTS</h3>
                 {!! $config->about !!}
