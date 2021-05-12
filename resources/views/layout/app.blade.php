@@ -177,7 +177,7 @@
             <img src="{{asset('assets/images/branchIelts.jpg')}}" class="branchTop d-lg-none">
         </div>
         <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9 pt-3 pb-2 pb-md-5 py-lg-5 text-center">
-            <img src="{{asset('assets/images/banner-top-website.jpg')}}" class="w-100">
+            <img src="{{asset('assets/images/tldq2.png')}}" class="w-75">
         </div>
     </div>
 </section>

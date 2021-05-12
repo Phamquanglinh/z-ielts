@@ -43,7 +43,7 @@ return [
             'password' => env('MAIL_PASSWORD'),
             'timeout' => null,
             'auth_mode' => null,
-            'from' => array('address' => 'bizenglishvietnam@gmail.com', 'name' => 'Admin'),
+            'from' => array('address' => 'zietls@outlook.com', 'name' => 'Admin'),
         ],
 
         'ses' => [
