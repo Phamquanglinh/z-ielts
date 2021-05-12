@@ -29,7 +29,7 @@
                 </div>
                 <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 text-center text-md-left">
                     <h5>TƯƠNG TÁC VỚI GIẢNG VIÊN</h5>
-                    <p class="text-lowercase">Giảng viên trực tiếp chữa bài và giải đáp thắc mắc cả trên lớp và qua các
+                    <p>Giảng viên trực tiếp chữa bài và giải đáp thắc mắc cả trên lớp và qua các
                         kênh online</p>
                 </div>
             </div>
@@ -49,7 +49,7 @@
                     <span class="spanItems"><i class="fas fa-user-clock fa-2x"></i></span>
                 </div>
                 <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 text-center text-md-left">
-                    <h5> SĨ SỐ NHỎ, THỜI GIAN LINH ĐỘNG</h5>
+                    <h5>SĨ SỐ NHỎ, THỜI GIAN LINH ĐỘNG</h5>
                     <p>Quyền truy cập bài giảng trên mọi thiết bị di động có kết nối Internet tại bất kỳ thời điểm nào,
                         và có thể xem bài học nhiều lần, xây dựng thời gian học theo lịch trình cá nhân.
                         Không sợ lỡ bài học hay tốn thời gian di chuyển.</p>
@@ -145,8 +145,8 @@
                             vựng, cấu trúc ngữ pháp giúp nâng band điểm</p>
                         <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Thực hành
                             simulation tests thường xuyên</p>
-                        <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i>( Bài test cuối
-                            khoá được ex-examiner chấm)</p>
+                        <p class="border-bottom border-dark py-2 m-2"><i class="far fa-check-circle"></i> Bài test cuối
+                            khoá được ex-examiner chấm</p>
                         <p class="text-center">
                             <a class="btn btn-danger text-center" href="#">ĐĂNG KÝ</a><br>
                         </p>
